@@ -1,0 +1,305 @@
+baseURL = "http://localhost:8080/"
+languageCode = "en-us"
+title = "Dominic Collart resume"
+theme = "devresume"
+
+
+
+[params]
+    author = "Dominic Collart"
+    description = "Dominic Collart resume"
+
+
+    [params.profile]
+        enable = true
+        name = "Dominic Collart"
+        tagline = "Full stack developer - .NET oriented"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Court-Saint-Etienne, Belgium"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0494/88.87.14"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "dcollart@mithril.be"      
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = ".NET Core (C#)"
+        [[params.skills.list.items]]
+        details = "ASP.NET Core"
+        [[params.skills.list.items]]
+        details = "Angular 2+"
+
+        [[params.skills.list]]
+        title = "Concepts"
+        [[params.skills.list.items]]
+        details = "RESTful / HATEOAS"
+        [[params.skills.list.items]]
+        details = "Software architecture"
+        [[params.skills.list.items]]
+        details = "DDD (light)"
+        [[params.skills.list.items]]
+        details = "CQRS"
+        [[params.skills.list.items]]
+        details = "Event sourcing"
+        [[params.skills.list.items]]
+        details = "Distributed architecture"
+        [[params.skills.list.items]]
+        details = "Microservices"
+        [[params.skills.list.items]]
+        details = "CI/CD"
+
+        [[params.skills.list]]
+        title = "Modelling"
+        [[params.skills.list.items]]
+        details = "UML"
+        [[params.skills.list.items]]
+        details = "Archimate"
+
+        
+        [[params.skills.list]]
+        title = "Testing"
+        [[params.skills.list.items]]
+        details = "TDD/BDD"
+        [[params.skills.list.items]]
+        details = "XUnit/MsTests/NUnit"
+        [[params.skills.list.items]]
+        details = "Unit/Integration/End2end tests"
+        [[params.skills.list.items]]
+        details = "Specflow"
+
+        [[params.skills.list]]
+        title = "Soft skills"
+        [[params.skills.list.items]]
+        details = "Autonomous"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Coaching"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Information technology"
+        university = "EPHEC"
+        dates = "2010 - 2014"
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Professionnal Scrum Master I"
+        body = "Scrum.org"
+        date = "2019"
+
+        [[params.awards.list]]
+        name = "Programming in C#"
+        body = "Microsoft"
+        date = "2014"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "French"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Intermediate"
+
+    [params.summary]
+        enable = true
+        text = "Young full stack developer with a few years of experiences. I had the chance to work on a lot of new projects from scratch which help me to improve my skills pretty quickly. I'm dedicated to provide to my customers a high quality code. In order to achieve that, I continuously learn about technologies but mostly about the concepts (such as DDD or CQRS). I also gave some trainings during my first years that's why now I'm always happy to coach some people or to provide advice when needed."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Audit (Interparking)"
+        dates = "01/2019 - 12/2019"
+        company = "Architect/Analyst  (Freelance)"
+        details = "To get compliant for an external audit, we had to analyze the whole end to end cash flow and provide for each step a full report to guarantee our control on these."
+            [[params.experience.list.items]]
+                details = "Archimate"
+            [[params.experience.list.items]]
+                details = "SQL"
+            [[params.experience.list.items]]
+                details = "Data consolidation"
+
+        [[params.experience.list]]
+        title = "Invoice per mail (Interparking)"
+        dates = "09/2019 - 12/2019"
+        company = "Architect/Analyst  (Freelance)"
+        details = "In order to be able to deliver invoices per mail, some new components had to be developped and some integration with the old system had to be made. "
+            [[params.experience.list.items]]
+                details = "Archimate"
+            [[params.experience.list.items]]
+                details = ".NET Core"
+
+        [[params.experience.list]]
+        title = "Transaction API (Interparking)"
+        dates = "03/2019 - 08/2019"
+        company = "Architect/Analyst  (Freelance)"
+        details = "Some major accounts wanted an automated way to retrieve their multi-products/countries/contracts transactions. A new API has been designed to meet their requirements."
+            [[params.experience.list.items]]
+                details = "ASP.NET Web API"
+            [[params.experience.list.items]]
+                details = "ASP.NET Core (PoC not in production)"
+            [[params.experience.list.items]]
+                details = "Archimate"
+            [[params.experience.list.items]]
+                details = "Selfhost end2end testing"
+            [[params.experience.list.items]]
+                details = "Dapper"
+            [[params.experience.list.items]]
+                details = "Entity framework"
+
+        [[params.experience.list]]
+        title = "Subscription2 (Interparking)"
+        dates = "09/2017 - 12/2018"
+        company = "Full stack developer/Scrum master (Adneom - Freelance)"
+        details = "Subscription is the most basic product offered by Interparking. The goal was to be able to bring a technical solution for other countries in the group. The legacy system was not maintainable and extensible enough so the decision was to build a new solution from scratch (contract management, product management, web integration, invoicing, ...)."
+            [[params.experience.list.items]]
+                details = "ASP.NET Web API"
+            [[params.experience.list.items]]
+                details = "Onion architecture"
+            [[params.experience.list.items]]
+                details = "Selfhost end2end testing"
+            [[params.experience.list.items]]
+                details = "Fluent validation"
+            [[params.experience.list.items]]
+                details = "Entity framework"
+
+        [[params.experience.list]]
+        title = "Servipark API (Interparking)"
+        dates = "10/2016 - 09/2017"
+        company = "Full stack developer (Adneom)"
+        details = "Servipark is a company (owned by Interparking) that provides the PCard product (a post paid product that allows customer to access all car parks). The old websites wwere available for multiple countries but were only managed in Belgium. The maintenance cost became higher and the SLA for change request was not good enough for countries. The goal of this project was to provide an restful API in order to let every country in charge of developing their own website."
+            [[params.experience.list.items]]
+                details = "ASP.NET Web API"
+            [[params.experience.list.items]]
+                details = "Fluent validation"
+            [[params.experience.list.items]]
+                details = "Entity framework"
+            [[params.experience.list.items]]
+                details = "OAuth 2 (Identity server)"
+            [[params.experience.list.items]]
+                details = "Postman for automated testing"
+
+        [[params.experience.list]]
+        title = "Matador adserver (Radionomy)"
+        dates = "02/2016 - 10/2016"
+        company = "Full stack developer (Adneom)"
+        details = "Radionomy relies on advertisements for financing and owns a company specialized in audio advertising named Targetspot. The goal of this project was to create an adserver (an application managing campains/flights) specialized for audio world. It was also built to be sold as an SaaS solution for other companies."
+            [[params.experience.list.items]]
+                details = "ASP.NET MVC"
+            [[params.experience.list.items]]
+                details = "ASP.NET Web API"
+            [[params.experience.list.items]]
+                details = "ADO.NET"
+            [[params.experience.list.items]]
+                details = "HTML/CSS/JS"
+
+        [[params.experience.list]]
+        title = "Tizen application (Radionomy)"
+        dates = "09/2015 - 02/2016"
+        company = "Frontend developer (Adneom)"
+        details = "Radionomy is a company providing the ability to create and broadcast web radio station. The purpose of this project was to help Radionomy to be available on Tizen (Samsung TV operating system). The applications could be native or web based and we chose the last one for this development."
+            [[params.experience.list.items]]
+                details = "AngularJS (1.X)"
+            [[params.experience.list.items]]
+                details = "ASP.NET Web API"
+
+        [[params.experience.list]]
+        title = "Roku application (Radionomy)"
+        dates = "09/2015 - 02/2016"
+        company = "Roku developer (Adneom)"
+        details = "Radionomy is a company providing the ability to create and broadcast web radio station. The purpose of this project was to help Radionomy to be available on Roku stick (kind of Chromecast)."
+            [[params.experience.list.items]]
+                details = "Brightscript (proprietary language)"
+            [[params.experience.list.items]]
+                details = "ASP.NET Web API"
+
+        [[params.experience.list]]
+        title = "Casimire (InterMIRE)"
+        dates = "02/2015 - 09/2015"
+        company = "Fullstack developer (CogniTIC)"
+        details = "A MIRE (Mission Inter-Régional pour l'Emploi) is a NPO focused on helping people to find and keep jobs. They are about ~10 of them in the country and in order to be the most efficient they had to collaborate to exchange relevant informations (job seeker profile or job offer). In order to liaise all 10 MIRE's, a new MIRE solely dedicated to inter-communication was created: InterMIRE. This platform was to help them to share and propagate information."
+       
+            [[params.experience.list.items]]
+            details = "ASP.NET MVC"
+            [[params.experience.list.items]]
+            details = "Entity framework"
+            [[params.experience.list.items]]
+            details = "HTML/CSS/JS"
+            [[params.experience.list.items]]
+            details = "SQL Server"
+            [[params.experience.list.items]]
+            details = "Customer SPA framework"
+
+        [[params.experience.list]]
+        title = "Product catalog (Halliburton)"
+        dates = "02/2014 - 10/2014"
+        company = "Fullstack developer (CogniTIC)"
+        details = "Halliburton is a company that designs and provides equipments for oil extraction. This project was built to help them manage their products (industrial drill, ...). First part was about a product management that allowed them to create a product from sub-products (a drill could be decomposed until the screw). The second part was about to select a product respecting the constraint established during the creation (Some parts were optional, some were exclusive, ...). Previously they had to work with dozens of excel files (one per [sub]products)."
+
+            [[params.experience.list.items]]
+            details = "ASP.NET MVC"
+            [[params.experience.list.items]]
+            details = "Entity framework"
+            [[params.experience.list.items]]
+            details = "SQL Server"
+            [[params.experience.list.items]]
+            details = "HTML/CSS/JS (jQuery)"
+
+        [[params.experience.list]]
+        title = "RTV (Auxipress)"
+        dates = "08/2013 - 03/2019"
+        company = "Fullstack developer (CogniTIC)"
+        details = "Auxipress is a company specialized in media analysis. This project was built to facilitate the work of the team dedicated to radio and television shows analysis by providing an unified web application. Previously they had to work with multiples applications (video player, note taker, mail agent, ...) and had to warn manually the customers when they were mentionned."
+       
+            [[params.experience.list.items]]
+            details = "ASP.NET MVC"
+            [[params.experience.list.items]]
+            details = "Entity framework"
+            [[params.experience.list.items]]
+            details = "FFMPEG (for on the fly transcoding)"
+            [[params.experience.list.items]]
+            details = "SQL Server"
+            [[params.experience.list.items]]
+            details = "HTML/CSS/JS (jQuery)"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/dcollart"
+        title = "DCollart"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/dominic-collart-2068abb3/"
+        title = "Dominic Collart"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/DominicCollart"
+        title = "DominicCollart"
+        [[params.social.list]]
+        icon = "fab fa-stack-overflow"
+        url = "//stackoverflow.com/users/5581561/arcord"
+        title = "Arcord"
