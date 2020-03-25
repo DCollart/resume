@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:8080/categories/</loc>
+    <loc>http://resume.mithril.be/categories/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:8080/</loc>
+    <loc>http://resume.mithril.be/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:8080/tags/</loc>
+    <loc>http://resume.mithril.be/tags/</loc>
   </url>
   
 </urlset>

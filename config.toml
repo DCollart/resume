@@ -1,4 +1,4 @@
-baseURL = "http://localhost:8080/"
+baseURL = "http://resume.mithril.be/"
 languageCode = "en-us"
 title = "Dominic Collart resume"
 theme = "devresume"
