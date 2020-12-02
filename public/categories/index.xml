@@ -5,10 +5,6 @@
     <link>http://resume.mithril.be/categories/</link>
     <description>Recent content in Categories on Dominic Collart resume</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://resume.mithril.be/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://resume.mithril.be/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
