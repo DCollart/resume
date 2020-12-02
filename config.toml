@@ -78,6 +78,8 @@ theme = "devresume"
         details = "Unit/Integration/End2end tests"
         [[params.skills.list.items]]
         details = "Specflow"
+        [[params.skills.list.items]]
+        details = "Load tests (JMeter)"
 
         [[params.skills.list]]
         title = "Soft skills"
@@ -101,6 +103,10 @@ theme = "devresume"
 
     [params.awards]
         enable = true
+        [[params.awards.list]]
+        name = "Azure fundamentals"
+        body = "Microsoft"
+        date = "2020"
 
         [[params.awards.list]]
         name = "Professionnal Scrum Master I"
@@ -130,8 +136,21 @@ theme = "devresume"
         enable = true
 
         [[params.experience.list]]
+        title = "Client tool (Partena)"
+        dates = "04/2020 - Now"
+        company = "Developer  (Freelance)"
+            [[params.experience.list.items]]
+                details = "ASP.NET Core"
+            [[params.experience.list.items]]
+                details = "Angular"
+            [[params.experience.list.items]]
+                details = "Redis"
+            [[params.experience.list.items]]
+                details = "Service Fabric"
+
+        [[params.experience.list]]
         title = "Audit (Interparking)"
-        dates = "01/2019 - 12/2019"
+        dates = "01/2019 - 03/2020"
         company = "Architect/Analyst  (Freelance)"
         details = "To get compliant for an external audit, we had to analyze the whole end to end cash flow and provide for each step a full report to guarantee our control on these."
             [[params.experience.list.items]]
