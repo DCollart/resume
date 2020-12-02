@@ -1,4 +1,4 @@
-baseURL = "http://resume.mithril.be/"
+baseURL = "https://resume.mithril.be/"
 languageCode = "en-us"
 title = "Dominic Collart resume"
 theme = "devresume"
