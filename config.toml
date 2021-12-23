@@ -156,8 +156,10 @@ theme = "devresume"
             [[params.experience.list.items]]
                 details = "Archimate"
             [[params.experience.list.items]]
+                details = "Event storming"
+            [[params.experience.list.items]]
                 details = "Azure (WAF, AppInsight, APIM)"    
-                     
+
         [[params.experience.list]]
         title = "Audit (Interparking)"
         dates = "01/2019 - 03/2020"
