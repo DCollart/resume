@@ -39,7 +39,7 @@ theme = "devresume"
         [[params.skills.list.items]]
         details = "ASP.NET Core"
         [[params.skills.list.items]]
-        details = "Angular 2+"
+        details = "Angular 10+"
 
         [[params.skills.list]]
         title = "Concepts"
@@ -136,22 +136,32 @@ theme = "devresume"
         enable = true
 
         [[params.experience.list]]
-        title = "Client tool (Partena)"
+        title = "ProSalary (Partena)"
         dates = "04/2020 - Now"
-        company = "Developer  (Freelance)"
+        company = "Software architect"
+        details = "ProSalary is the new tool developped by Partena in order to propose to SMEs (for the moment) a new experience to manage the employees and the payroll information (contract data, fiscal informations, wage package, package, and more). My focus was as well on the functional requirements than the cross-functional requirements (security, performances, design, documentation, ...) and to make the team evolve in the way of thinking the problem."
+
             [[params.experience.list.items]]
                 details = "ASP.NET Core"
             [[params.experience.list.items]]
-                details = "Angular"
-            [[params.experience.list.items]]
-                details = "Redis"
+                details = "Angular 10+"
             [[params.experience.list.items]]
                 details = "Service Fabric"
-
+            [[params.experience.list.items]]
+                details = "NServiceBus"
+            [[params.experience.list.items]]
+                details = "Microservices/SOA"                     
+            [[params.experience.list.items]]
+                details = "JMeter"
+            [[params.experience.list.items]]
+                details = "Archimate"
+            [[params.experience.list.items]]
+                details = "Azure (WAF, AppInsight, APIM)"    
+                     
         [[params.experience.list]]
         title = "Audit (Interparking)"
         dates = "01/2019 - 03/2020"
-        company = "Architect/Analyst  (Freelance)"
+        company = "Architect/Analyst"
         details = "To get compliant for an external audit, we had to analyze the whole end to end cash flow and provide for each step a full report to guarantee our control on these."
             [[params.experience.list.items]]
                 details = "Archimate"
@@ -163,7 +173,7 @@ theme = "devresume"
         [[params.experience.list]]
         title = "Invoice per mail (Interparking)"
         dates = "09/2019 - 12/2019"
-        company = "Architect/Analyst  (Freelance)"
+        company = "Architect/Analyst"
         details = "In order to be able to deliver invoices per mail, some new components had to be developped and some integration with the old system had to be made. "
             [[params.experience.list.items]]
                 details = "Archimate"
@@ -173,7 +183,7 @@ theme = "devresume"
         [[params.experience.list]]
         title = "Transaction API (Interparking)"
         dates = "03/2019 - 08/2019"
-        company = "Architect/Analyst  (Freelance)"
+        company = "Architect/Analyst"
         details = "Some major accounts wanted an automated way to retrieve their multi-products/countries/contracts transactions. A new API has been designed to meet their requirements."
             [[params.experience.list.items]]
                 details = "ASP.NET Web API"
@@ -189,9 +199,9 @@ theme = "devresume"
                 details = "Entity framework"
 
         [[params.experience.list]]
-        title = "Subscription2 (Interparking)"
+        title = "Subscription2 -Interparking"
         dates = "09/2017 - 12/2018"
-        company = "Full stack developer/Scrum master (Adneom - Freelance)"
+        company = "Full stack developer/Scrum master"
         details = "Subscription is the most basic product offered by Interparking. The goal was to be able to bring a technical solution for other countries in the group. The legacy system was not maintainable and extensible enough so the decision was to build a new solution from scratch (contract management, product management, web integration, invoicing, ...)."
             [[params.experience.list.items]]
                 details = "ASP.NET Web API"
@@ -205,9 +215,9 @@ theme = "devresume"
                 details = "Entity framework"
 
         [[params.experience.list]]
-        title = "Servipark API (Interparking)"
+        title = "Servipark API - Interparking"
         dates = "10/2016 - 09/2017"
-        company = "Full stack developer (Adneom)"
+        company = "Full stack developer"
         details = "Servipark is a company (owned by Interparking) that provides the PCard product (a post paid product that allows customer to access all car parks). The old websites wwere available for multiple countries but were only managed in Belgium. The maintenance cost became higher and the SLA for change request was not good enough for countries. The goal of this project was to provide an restful API in order to let every country in charge of developing their own website."
             [[params.experience.list.items]]
                 details = "ASP.NET Web API"
@@ -221,9 +231,9 @@ theme = "devresume"
                 details = "Postman for automated testing"
 
         [[params.experience.list]]
-        title = "Matador adserver (Radionomy)"
+        title = "Matador adserver - Radionomy"
         dates = "02/2016 - 10/2016"
-        company = "Full stack developer (Adneom)"
+        company = "Full stack developer"
         details = "Radionomy relies on advertisements for financing and owns a company specialized in audio advertising named Targetspot. The goal of this project was to create an adserver (an application managing campains/flights) specialized for audio world. It was also built to be sold as an SaaS solution for other companies."
             [[params.experience.list.items]]
                 details = "ASP.NET MVC"
@@ -235,9 +245,9 @@ theme = "devresume"
                 details = "HTML/CSS/JS"
 
         [[params.experience.list]]
-        title = "Tizen application (Radionomy)"
+        title = "Tizen application - Radionomy"
         dates = "09/2015 - 02/2016"
-        company = "Frontend developer (Adneom)"
+        company = "Frontend developer"
         details = "Radionomy is a company providing the ability to create and broadcast web radio station. The purpose of this project was to help Radionomy to be available on Tizen (Samsung TV operating system). The applications could be native or web based and we chose the last one for this development."
             [[params.experience.list.items]]
                 details = "AngularJS (1.X)"
@@ -245,9 +255,9 @@ theme = "devresume"
                 details = "ASP.NET Web API"
 
         [[params.experience.list]]
-        title = "Roku application (Radionomy)"
+        title = "Roku application - Radionomy"
         dates = "09/2015 - 02/2016"
-        company = "Roku developer (Adneom)"
+        company = "Roku developer"
         details = "Radionomy is a company providing the ability to create and broadcast web radio station. The purpose of this project was to help Radionomy to be available on Roku stick (kind of Chromecast)."
             [[params.experience.list.items]]
                 details = "Brightscript (proprietary language)"
@@ -255,9 +265,9 @@ theme = "devresume"
                 details = "ASP.NET Web API"
 
         [[params.experience.list]]
-        title = "Casimire (InterMIRE)"
+        title = "Casimire - InterMIRE (CogniTIC)"
         dates = "02/2015 - 09/2015"
-        company = "Fullstack developer (CogniTIC)"
+        company = "Fullstack developer"
         details = "A MIRE (Mission Inter-Régional pour l'Emploi) is a NPO focused on helping people to find and keep jobs. They are about ~10 of them in the country and in order to be the most efficient they had to collaborate to exchange relevant informations (job seeker profile or job offer). In order to liaise all 10 MIRE's, a new MIRE solely dedicated to inter-communication was created: InterMIRE. This platform was to help them to share and propagate information."
        
             [[params.experience.list.items]]
@@ -272,9 +282,9 @@ theme = "devresume"
             details = "Customer SPA framework"
 
         [[params.experience.list]]
-        title = "Product catalog (Halliburton)"
+        title = "Product catalog - Halliburton (CogniTIC)"
         dates = "02/2014 - 10/2014"
-        company = "Fullstack developer (CogniTIC)"
+        company = "Fullstack developer"
         details = "Halliburton is a company that designs and provides equipments for oil extraction. This project was built to help them manage their products (industrial drill, ...). First part was about a product management that allowed them to create a product from sub-products (a drill could be decomposed until the screw). The second part was about to select a product respecting the constraint established during the creation (Some parts were optional, some were exclusive, ...). Previously they had to work with dozens of excel files (one per [sub]products)."
 
             [[params.experience.list.items]]
@@ -287,9 +297,9 @@ theme = "devresume"
             details = "HTML/CSS/JS (jQuery)"
 
         [[params.experience.list]]
-        title = "RTV (Auxipress)"
+        title = "RTV - Auxipress (CogniTIC)"
         dates = "08/2013 - 03/2019"
-        company = "Fullstack developer (CogniTIC)"
+        company = "Fullstack developer"
         details = "Auxipress is a company specialized in media analysis. This project was built to facilitate the work of the team dedicated to radio and television shows analysis by providing an unified web application. Previously they had to work with multiples applications (video player, note taker, mail agent, ...) and had to warn manually the customers when they were mentionned."
        
             [[params.experience.list.items]]
