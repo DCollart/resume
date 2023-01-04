@@ -13,12 +13,11 @@ theme = "devresume"
     [params.profile]
         enable = true
         name = "Dominic Collart"
-        tagline = "Full stack developer - .NET oriented"
-        avatar = "avatar.png"
+        tagline = "Software architect (specialized in .NET Core and Angular)"
 
     [params.contact]
         enable = true
-        location = "Court-Saint-Etienne, Belgium"
+        location = "Beauvechain, Belgium"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -39,7 +38,7 @@ theme = "devresume"
         [[params.skills.list.items]]
         details = "ASP.NET Core"
         [[params.skills.list.items]]
-        details = "Angular 10+"
+        details = "Angular 13+"
 
         [[params.skills.list]]
         title = "Concepts"
@@ -130,14 +129,28 @@ theme = "devresume"
 
     [params.summary]
         enable = true
-        text = "Young full stack developer with a few years of experiences. I had the chance to work on a lot of new projects from scratch which help me to improve my skills pretty quickly. I'm dedicated to provide to my customers a high quality code. In order to achieve that, I continuously learn about technologies but mostly about the concepts (such as DDD or CQRS). I also gave some trainings during my first years that's why now I'm always happy to coach some people or to provide advice when needed."
+        text = "Software architect with a solution oriented spirit finding the best balance between business needs and evolutive and stable architecture."
 
     [params.experience]
         enable = true
 
+
+        [[params.experience.list]]
+        title = "B2C platform (???)"
+        dates = "06/2022 - Now"
+        company = "Software architect"
+        details = "The B2C platform was the main tool used by the business to interact directly with the customers. Allowing them to update their data, contract and options."
+
+            [[params.experience.list.items]]
+                details = "Angular 13+"
+            [[params.experience.list.items]]
+                details = "Firebase"
+            [[params.experience.list.items]]
+                details = "Jenkins"
+
         [[params.experience.list]]
         title = "ProSalary (Partena)"
-        dates = "04/2020 - Now"
+        dates = "04/2020 - 06/2022"
         company = "Software architect"
         details = "ProSalary is the new tool developped by Partena in order to propose to SMEs (for the moment) a new experience to manage the employees and the payroll information (contract data, fiscal informations, wage package, package, and more). My focus was as well on the functional requirements than the cross-functional requirements (security, performances, design, documentation, ...) and to make the team evolve in the way of thinking the problem."
 
@@ -163,7 +176,7 @@ theme = "devresume"
         [[params.experience.list]]
         title = "Audit (Interparking)"
         dates = "01/2019 - 03/2020"
-        company = "Architect/Analyst"
+        company = "Solution architect"
         details = "To get compliant for an external audit, we had to analyze the whole end to end cash flow and provide for each step a full report to guarantee our control on these."
             [[params.experience.list.items]]
                 details = "Archimate"
@@ -175,7 +188,7 @@ theme = "devresume"
         [[params.experience.list]]
         title = "Invoice per mail (Interparking)"
         dates = "09/2019 - 12/2019"
-        company = "Architect/Analyst"
+        company = "Solution architect"
         details = "In order to be able to deliver invoices per mail, some new components had to be developped and some integration with the old system had to be made. "
             [[params.experience.list.items]]
                 details = "Archimate"
@@ -185,7 +198,7 @@ theme = "devresume"
         [[params.experience.list]]
         title = "Transaction API (Interparking)"
         dates = "03/2019 - 08/2019"
-        company = "Architect/Analyst"
+        company = "Solution architect"
         details = "Some major accounts wanted an automated way to retrieve their multi-products/countries/contracts transactions. A new API has been designed to meet their requirements."
             [[params.experience.list.items]]
                 details = "ASP.NET Web API"
