@@ -13,7 +13,7 @@ theme = "devresume"
     [params.profile]
         enable = true
         name = "Dominic Collart"
-        tagline = "Software architect (specialized in .NET Core and Angular)"
+        tagline = "Software/Solution architect specialized in .NET and web"
 
     [params.contact]
         enable = true
@@ -129,7 +129,7 @@ theme = "devresume"
 
     [params.summary]
         enable = true
-        text = "Software architect with a solution oriented spirit finding the best balance between business needs and evolutive and stable architecture."
+        text = "Software/Solution architect with a solution oriented spirit finding the best balance between business needs providing evolutive and stable architecture."
 
     [params.experience]
         enable = true
@@ -142,11 +142,16 @@ theme = "devresume"
         details = "The B2C platform was the main tool used by the business to interact directly with the customers. Allowing them to update their data, contract and options."
 
             [[params.experience.list.items]]
+                details = "Archimate"
+            [[params.experience.list.items]]
                 details = "Angular 13+"
+            [[params.experience.list.items]]
+                details = "ASP.NET"
             [[params.experience.list.items]]
                 details = "Firebase"
             [[params.experience.list.items]]
                 details = "Jenkins"
+            
 
         [[params.experience.list]]
         title = "ProSalary (Partena)"
