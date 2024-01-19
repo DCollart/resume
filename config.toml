@@ -13,7 +13,7 @@ theme = "devresume"
     [params.profile]
         enable = true
         name = "Dominic Collart"
-        tagline = "Software/Solution architect specialized in .NET and web"
+        tagline = "Software/Solution architect specialized in microservices, .NET and web"
 
     [params.contact]
         enable = true
@@ -43,19 +43,19 @@ theme = "devresume"
         [[params.skills.list]]
         title = "Concepts"
         [[params.skills.list.items]]
+        details = "Microservices"
+        [[params.skills.list.items]]
         details = "RESTful / HATEOAS"
         [[params.skills.list.items]]
         details = "Software architecture"
         [[params.skills.list.items]]
-        details = "DDD (light)"
+        details = "DDD"
         [[params.skills.list.items]]
         details = "CQRS"
         [[params.skills.list.items]]
         details = "Event sourcing"
         [[params.skills.list.items]]
         details = "Distributed architecture"
-        [[params.skills.list.items]]
-        details = "Microservices"
         [[params.skills.list.items]]
         details = "CI/CD"
 
@@ -103,9 +103,9 @@ theme = "devresume"
     [params.awards]
         enable = true
         [[params.awards.list]]
-        name = "Azure fundamentals"
+        name = "Azure administrator (AZ-104)"
         body = "Microsoft"
-        date = "2020"
+        date = "2023"
 
         [[params.awards.list]]
         name = "Professionnal Scrum Master I"
@@ -136,21 +136,29 @@ theme = "devresume"
 
 
         [[params.experience.list]]
-        title = "B2C platform (???)"
-        dates = "06/2022 - Now"
-        company = "Software architect"
-        details = "The B2C platform was the main tool used by the business to interact directly with the customers. Allowing them to update their data, contract and options."
+        title = "Revamp and maintenance of MyVoo + Performance investigation (Voo)"
+        dates = "06/2022 - 01/2024"
+        company = "Lead dev - Software architect"
+        details = "MyVoo is the B2C platform and the main communication channel to the customer. During this we also integrate with some third party like Airship for web notifications. In parallel some performance issues have been detected and we had to analyze the root cause of it."
 
             [[params.experience.list.items]]
                 details = "Archimate"
             [[params.experience.list.items]]
                 details = "Angular 13+"
             [[params.experience.list.items]]
-                details = "ASP.NET"
+                details = "PWA / Service worker"
+            [[params.experience.list.items]]
+                details = "ASP.NET Core"
+            [[params.experience.list.items]]
+                details = "Redis (sentinel)"
+            [[params.experience.list.items]]
+                details = "Mongo"
             [[params.experience.list.items]]
                 details = "Firebase"
             [[params.experience.list.items]]
                 details = "Jenkins"
+            [[params.experience.list.items]]
+                details = "Push notification (Airship)"
             
 
         [[params.experience.list]]
